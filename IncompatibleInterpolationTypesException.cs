@@ -4,7 +4,7 @@ namespace Assignment3
 {
     public class IncompatibleInterpolationTypesException : Exception
     {
-        public int Mean { get; set; }
+        public int Mean { get; set; }   
 
         public int InterpolationType1 { get; set; }
         
@@ -15,6 +15,6 @@ namespace Assignment3
             Mean = mean;
             InterpolationType1 = interpolationType1;
             InterpolationType2 = interpolationType2;
-        }
+        }   
     }
 }
